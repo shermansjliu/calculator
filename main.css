@@ -51,7 +51,7 @@ body {
 .operator {
     border: none;
     background-color: #612d43;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .button:hover {
