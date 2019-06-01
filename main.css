@@ -12,6 +12,7 @@ body {
     padding-top: 80px;
     padding-bottom: 80px;
 
+
 }
 
 .title {
@@ -30,6 +31,15 @@ body {
 .kbi-container {
     text-align: center;
     color: var(--main-text-color);
+}
+
+.kbi-container::after {
+    background-color: var(--main-text-color);
+    display: block;
+    content: '';
+    margin: auto;
+    width: 50%;
+    height: 3px;
 }
 
 
@@ -89,7 +99,7 @@ span {
 
 .operation-btn, .clear, .equals {
     border: none;
-    background-color: #612d43;
+    background-color: var(--operation-clear-color);
     font-size: 2rem;
 }
 
@@ -98,7 +108,7 @@ span {
 }
 
 .operation-btn:hover, .clear:hover, .equals:hover {
-    background-color: #955D73;
+    opacity: 0.9;
 }
 
 
