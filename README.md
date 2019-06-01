@@ -6,4 +6,4 @@ A calculator built on a web browser
 HTML, CSS, Javascript
 
 ### In browser solution
-https://github.com/shermansjliu/calculator
+https://shermansjliu.github.io/calculator/
