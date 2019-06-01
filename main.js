@@ -120,7 +120,6 @@ window.addEventListener('keydown', (e) => {
     else if (operators.includes(e.key)) {
         addOperator (e.key);
 
-
     }
     else if (e.key == '=') {
         calculate();
@@ -130,6 +129,10 @@ window.addEventListener('keydown', (e) => {
      }
      else if (e.key == '.') {
          addDecimal ();
+     }
+
+     else if (e.key.toLowerCase == 'c') {
+         display.textContent = '';
      }
 
 });
